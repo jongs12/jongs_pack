@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "armed",
+        "amount": 99,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:player.block_break_speed",
+        "name": "armed",
+        "amount": -1,
+        "operation": "add_multiplied_total",
+        "slot": "mainhand"
+      }
+    ]
+  }
+]

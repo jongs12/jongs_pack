@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.2 with minecraft:$(tools)_hoe[minecraft:custom_name='{"text": "약탈 괭이"}',minecraft:lore=['{"text": "몹 처치 시 특정 아이템이 나올 확률이 증가합니다."}'],minecraft:unbreakable={},minecraft:enchantments={levels:{'minecraft:looting':100,'minecraft:vanishing_curse':1}},minecraft:tool={rules:[]},minecraft:custom_data={jongs: {type:gen,tools:$(tools),slot:hot2,order:2} }]
