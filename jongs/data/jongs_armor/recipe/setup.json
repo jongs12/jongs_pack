@@ -2,9 +2,9 @@
   "type": "crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "SPS",
-    " S ",
-    "SP "
+    "  S",
+    "S S",
+    "PSP"
   ],
   "key": {
     "P": {

@@ -12,6 +12,10 @@ execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{j
 ###mode를 elytra에서 chestplate로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {mode:elytra} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.mode set value chestplate
 #
+###흉갑이 {jongs: {part:chestplate} }인지 아닌지에 따라 다른 함수를 실행합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {part:chestplate} }}}]},nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot8} }}}]}] run function jongs_armor:change/chestplate
+execute as @s[nbt=!{Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {part:chestplate} }}}]},nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot8} }}}]}] run function jongs_armor:change/armor/check
+#
 ###menu를 home으로.###
 execute as @s[nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value home
 #

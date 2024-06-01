@@ -3,3 +3,12 @@ execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jo
 #
 ###흉갑이 {jongs: {type:core,menu:tools} }인 경우 give/inv_tools를 실행합니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core,menu:tools} }}}]}] run function jongs_armor:give/inv_tools
+#
+###흉갑이 {jongs: {type:core,menu:type} }인 경우 give/inv_type을 실행합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core,menu:type} }}}]}] run function jongs_armor:give/inv_type
+###흉갑이 {jongs: {type:core,menu:pattern} }인 경우 give/inv_pattern을 실행합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core,menu:pattern} }}}]}] run function jongs_armor:give/inv_pattern
+###흉갑이 {jongs: {type:core,menu:material} }인 경우 give/inv_material을 실행합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core,menu:material} }}}]}] run function jongs_armor:give/inv_material
+###흉갑이 {jongs: {type:core,menu:color} }인 경우 give/inv_color를 실행합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core,menu:color} }}}]}] run function jongs_armor:give/inv_color

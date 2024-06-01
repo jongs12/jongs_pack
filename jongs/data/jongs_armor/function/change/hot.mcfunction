@@ -53,11 +53,15 @@ execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{j
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot6} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.hot6 set value 0
 ###hot6을 0에서 1로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot6,order:0} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.hot6 set value 1
+###hot6을 1에서 2로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot6,order:1} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.hot6 set value 2
 #
 ###hot7을 0으로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot7} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.hot7 set value 0
 ###hot7을 0에서 1로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot7,order:0} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.hot7 set value 1
+###hot7을 1에서 2로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot7,order:1} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.hot7 set value 2
 #
 ###time을 day에서 night로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,time:day} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.time set value night
@@ -73,6 +77,24 @@ execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{j
 execute as @s[nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value home
 ###menu를 tools로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv22} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value tools
+#
+###menu를 type으로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2menu:type} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value type
+###menu를 pattern으로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2menu:pattern} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value pattern
+###menu를 material로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2menu:material} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value material
+###menu를 color로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2menu:color} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.menu set value color
+#
+###part를 helmet으로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2part:helmet} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.part set value helmet
+###part를 chestplate로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2part:chestplate} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.part set value chestplate
+###part를 leggings로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2part:leggings} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.part set value leggings
+###part를 boots로.###
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {2part:boots} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.part set value boots
 #
 ###tools를 wooden으로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:tools,slot:inv10} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.tools set value wooden
