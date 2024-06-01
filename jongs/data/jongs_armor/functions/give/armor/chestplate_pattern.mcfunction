@@ -1,1 +1,0 @@
-$item replace entity @s inventory.6 with $(pattern)_armor_trim_smithing_template[minecraft:hide_additional_tooltip={},minecraft:custom_name='{"text": "흉갑 장식 패턴: $(pattern)"}',minecraft:lore=['{"text": "양손 들기로 변경 메뉴를 엽니다."}'],minecraft:enchantments={levels:{'minecraft:vanishing_curse':1}},minecraft:custom_data={jongs: {type:gen,menu:home,slot:inv6} }]
