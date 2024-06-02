@@ -1,0 +1,1 @@
+$data modify entity @e[type=minecraft:armor_stand,sort=nearest,limit=1,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[0].components."minecraft:trim".pattern set value $(boots_pattern)

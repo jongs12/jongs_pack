@@ -1,0 +1,1 @@
+$data modify entity @e[type=minecraft:armor_stand,sort=nearest,limit=1,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].id set value $(chestplate_type)_chestplate
