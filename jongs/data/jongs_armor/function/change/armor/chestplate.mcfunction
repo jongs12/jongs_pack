@@ -13,7 +13,7 @@ $execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{
 #
 $execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:type,slot:inv16} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.$(part)_type set value netherite
 #
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:type,slot:inv22} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.helmet_type set value turtle
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:type,slot:inv13} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.helmet_type set value turtle
 #
 ###다른 손이 {jongs: {menu:pattern} }이면.###
 $execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:pattern,slot:inv9} }}}]}] run data modify entity @n[type=minecraft:armor_stand,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[2].components."minecraft:custom_data".jongs.$(part)_pattern set value sentry
