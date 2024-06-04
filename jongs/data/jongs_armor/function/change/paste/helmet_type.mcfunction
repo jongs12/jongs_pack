@@ -1,1 +1,1 @@
-$data modify entity @e[type=minecraft:armor_stand,sort=nearest,limit=1,nbt={Marker:true,Small:true,Invisible:true,DisabledSlots:4144959}] ArmorItems[3].id set value $(helmet_type)_helmet
+$data modify entity @n[tag=jongs_armor] ArmorItems[3].id set value $(helmet_type)_helmet
