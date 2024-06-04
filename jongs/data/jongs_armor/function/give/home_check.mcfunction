@@ -1,2 +1,0 @@
-###흉갑이 {jongs: {type:core,menu:home} }인 경우 give/home을 실행합니다.###
-execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core,menu:home} }}}]}] run function jongs_armor:give/home
