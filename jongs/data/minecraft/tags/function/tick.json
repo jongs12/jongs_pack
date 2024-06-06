@@ -2,6 +2,6 @@
     "values":[
         "jongs_armor:tick",
         "jongs_armor:aura/check",
-        "jongs_pet:tick"
+        "jongs_mob:tick"
     ]
 }

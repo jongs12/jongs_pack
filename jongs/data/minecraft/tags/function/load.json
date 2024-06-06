@@ -1,6 +1,6 @@
 {
     "values":[
         "jongs_armor:load",
-        "jongs_pet:load"
+        "jongs_mob:load"
     ]
 }
