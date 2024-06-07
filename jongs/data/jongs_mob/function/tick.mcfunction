@@ -1,1 +1,0 @@
-execute as @a[tag=jongs_damage] if score @s jongs_damage > @s jongs_vari at @s run function jongs_mob:sandbag
