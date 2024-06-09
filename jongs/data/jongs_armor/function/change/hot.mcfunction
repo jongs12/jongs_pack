@@ -18,8 +18,6 @@ execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{j
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot1} }}}]}] run data modify entity @n[tag=jongs_armor] ArmorItems[2].components."minecraft:custom_data".jongs.hot1 set value 0
 ###hot1을 0에서 1로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot1,order:0} }}}]}] run data modify entity @n[tag=jongs_armor] ArmorItems[2].components."minecraft:custom_data".jongs.hot1 set value 1
-###hot1을 1에서 2로.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot1,order:1} }}}]}] run data modify entity @n[tag=jongs_armor] ArmorItems[2].components."minecraft:custom_data".jongs.hot1 set value 2
 #
 ###hot2를 0으로.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:hot2} }}}]}] run data modify entity @n[tag=jongs_armor] ArmorItems[2].components."minecraft:custom_data".jongs.hot2 set value 0
