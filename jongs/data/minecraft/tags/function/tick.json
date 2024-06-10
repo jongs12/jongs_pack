@@ -2,7 +2,6 @@
     "values":[
         "jongs_armor:tick",
         "jongs_armor:aura/check",
-        "jongs_armor:crossbow/tick",
         "jongs_mob:tick"
     ]
 }
