@@ -1,1 +1,0 @@
-execute as @e[type=end_crystal,tag=jongs_bomb] at @s unless entity @n[type=minecraft:firework_rocket,distance=..1.47] run function jongs_armor:crossbow/crystal
