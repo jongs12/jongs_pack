@@ -1,0 +1,42 @@
+{
+  "type": "crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "minecraft:beacon"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "minecraft:enchanting_table"
+    },
+    {
+      "item": "minecraft:heavy_core"
+    },
+    {
+      "item": "minecraft:recovery_compass"
+    },
+    {
+      "item": "minecraft:respawn_anchor"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"종스종스\"}",
+      "minecraft:lore": ["{\"text\":\"장착 시 인벤토리가 초기화됩니다.\"}"],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {"jongs":{"type":"setup"}}
+    }
+  }
+}
