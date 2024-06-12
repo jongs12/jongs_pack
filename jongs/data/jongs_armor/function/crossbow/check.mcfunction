@@ -1,2 +1,0 @@
-advancement revoke @s only jongs_armor:crossbow
-execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core} }}}]}] run function jongs_armor:crossbow/rocket with entity @s
