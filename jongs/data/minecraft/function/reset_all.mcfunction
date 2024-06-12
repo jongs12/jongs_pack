@@ -3,7 +3,7 @@ function jongs_mob:fatal_damage with entity @s
 kill @e[type=item]
 kill @e[type=experience_orb]
 #
-tag @a remove jongs_druid
+tag @a remove jongs_pets
 tag @a remove jongs_damage
 #
 time set 0
