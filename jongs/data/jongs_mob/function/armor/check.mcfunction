@@ -1,11 +1,14 @@
-execute as @s[type=#jongs_mob:axe] run function jongs_mob:armor/equip {pattern:snout, material:redstone, mainhand:netherite_axe}
-execute as @s[type=#jongs_mob:bow] run function jongs_mob:armor/equip {pattern:wild, material:iron, mainhand:bow}
-execute as @s[type=#jongs_mob:crossbow] run function jongs_mob:armor/equip {pattern:rib, material:gold, mainhand:crossbow}
-execute as @s[type=#jongs_mob:shovel] run function jongs_mob:armor/equip {pattern:dune, material:emerald, mainhand:netherite_shovel}
-execute as @s[type=#jongs_mob:sword] run function jongs_mob:armor/equip {pattern:sentry, material:amethyst, mainhand:netherite_sword}
-execute as @s[type=#jongs_mob:trident] run function jongs_mob:armor/equip {pattern:tide, material:diamond, mainhand:trident}
-execute as @s[type=#jongs_mob:no_weapon] run function jongs_mob:armor/equip {pattern:silence, material:lapis, mainhand:enchanted_golden_apple}
-execute as @s[type=#jongs_mob:various_weapon] at @s run function jongs_mob:armor/copy
-#
-me 에게 장비가 장착되었습니다.
-tag @s remove jongs_equipment
+#좀비.
+execute as @s[type=zombie] run function jongs_mob:armor/equip {pattern:wild, material:emerald}
+execute as @s[type=zombie_villager] run function jongs_mob:armor/equip {pattern:silence, material:emerald}
+execute as @s[type=husk] run function jongs_mob:armor/equip {pattern:dune, material:copper}
+execute as @s[type=drowned] run function jongs_mob:armor/equip {pattern:tide, material:diamond}
+#스켈레톤.
+execute as @s[type=skeleton] run function jongs_mob:armor/equip {pattern:sentry, material:quartz}
+execute as @s[type=stray] run function jongs_mob:armor/equip {pattern:coast, material:iron}
+execute as @s[type=bogged] run function jongs_mob:armor/equip {pattern:flow, material:lapis}
+execute as @s[type=wither_skeleton] run function jongs_mob:armor/equip {pattern:ward, material:amethyst}
+#피글린.
+execute as @s[type=piglin] run function jongs_mob:armor/equip {pattern:spire, material:gold}
+execute as @s[type=piglin_brute] run function jongs_mob:armor/equip {pattern:snout, material:redstone}
+execute as @s[type=zombified_piglin] run function jongs_mob:armor/equip {pattern:rib, material:gold}
