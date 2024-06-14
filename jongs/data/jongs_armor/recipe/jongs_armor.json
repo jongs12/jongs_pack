@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "minecraft:dragon_egg"
+      "item": "minecraft:dragon_head"
     },
     {
       "item": "minecraft:beacon"
@@ -21,7 +21,7 @@
       "item": "minecraft:recovery_compass"
     },
     {
-      "item": "minecraft:respawn_anchor"
+      "item": "minecraft:end_crystal"
     },
     {
       "item": "minecraft:trident"
