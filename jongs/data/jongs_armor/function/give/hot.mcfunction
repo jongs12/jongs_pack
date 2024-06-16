@@ -29,10 +29,10 @@ execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jo
 #
 ###여기부터 핫바 3번의 아이템을 다룹니다.###
 #
-###흉갑이 {jongs: {hot3:0} }이지만 핫바 2번이 {jongs: {type:gen,slot:hot3,order:0} }이 아닌 경우 삽을 장착시킵니다.###
+###흉갑이 {jongs: {hot3:0} }이지만 핫바 3번이 {jongs: {type:gen,slot:hot3,order:0} }이 아닌 경우 삽을 장착시킵니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {hot3:0} }}}]},nbt=!{Inventory:[{Slot:3b,components:{"minecraft:custom_data":{jongs: {type:gen,slot:hot3,order:0} }}}]}] run function jongs_armor:give/tools/shovel with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
 #
-###흉갑이 {jongs: {hot3:1} }이지만 핫바 2번이 {jongs: {type:gen,slot:hot3,order:1} }가 아닌 경우 괭이를 장착시킵니다.###
+###흉갑이 {jongs: {hot3:1} }이지만 핫바 3번이 {jongs: {type:gen,slot:hot3,order:1} }가 아닌 경우 괭이를 장착시킵니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {hot3:1} }}}]},nbt=!{Inventory:[{Slot:3b,components:{"minecraft:custom_data":{jongs: {type:gen,slot:hot3,order:1} }}}]}] run function jongs_armor:give/tools/hoe with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
 #
 ###여기부터 핫바 4번의 아이템을 다룹니다.###
@@ -90,7 +90,7 @@ execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jo
 ###흉갑이 {jongs: {time:night} }이고 주 손이 {jongs: {type:gen,slot:hot0,order:0} }이지만 다른 손이 {jongs: {type:gen,slot:off,main:{slot:hot0,order:0},time:night} }가 아닌 경우 방패를 장착시킵니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {time:night} }}}],SelectedItem:{ components:{"minecraft:custom_data":{jongs: {type:gen,slot:hot0,order:0} }} }},nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {type:gen,slot:off,main:{slot:hot0,order:0},time:night} }}}]}] run item replace entity @s weapon.offhand with minecraft:shield[minecraft:hide_additional_tooltip={},minecraft:item_name='{"text": "밤 방패"}',minecraft:lore=['{"text": "전방의 물리적 공격을 방어합니다."}'],minecraft:unbreakable={show_in_tooltip:false},minecraft:enchantments={show_in_tooltip:false,levels:{'minecraft:vanishing_curse':1}},minecraft:base_color="black",minecraft:banner_patterns=[ {color:"white",pattern:"minecraft:mojang"}, {color:"black",pattern:"minecraft:flower"}, {color:"blue",pattern:"minecraft:gradient_up"}, {color:"white",pattern:"minecraft:circle"}, {color:"black",pattern:"minecraft:triangles_bottom"}, {color:"black",pattern:"minecraft:square_bottom_left"} ],minecraft:custom_data={jongs: {type:gen,slot:off,main:{slot:hot0,order:0},time:night} }]
 #
-###주 손이 {jongs: {type:gen,slot:hot0,order:1} }이지만 다른 손이 {jongs: {type:gen,slot:off,main:{slot:hot0,order:1}} }이 아닌 경우 토템을 장착시킵니다.###
+###주 손이 {jongs: {type:gen,slot:hot0,order:1} }이지만 다른 손이 {jongs: {type:gen,slot:off,main:{slot:hot0,order:1}} }이 아닌 경우 삼지창을 장착시킵니다.###
 execute as @s[nbt={SelectedItem:{ components:{"minecraft:custom_data":{jongs: {type:gen,slot:hot0,order:1} }} }},nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {type:gen,slot:off,main:{slot:hot0,order:1}} }}}]}] run item replace entity @s weapon.offhand with minecraft:trident[minecraft:item_name='{"text": "급류 삼지창"}',minecraft:lore=['{"text": "물이나 비 속에서 돌진할 수 있습니다."}'],minecraft:unbreakable={show_in_tooltip:false},minecraft:enchantments={show_in_tooltip:false,levels:{'minecraft:sharpness':183,'minecraft:impaling':200,'minecraft:riptide':5,'minecraft:vanishing_curse':1}},minecraft:attribute_modifiers={show_in_tooltip:false,modifiers:[ {type:"minecraft:generic.attack_damage",id:"riptide_trident_attack_damage",amount:7,operation:add_value,slot:mainhand} ]},minecraft:custom_data={jongs: {type:gen,slot:off,main:{slot:hot0,order:1}} }]
 #
 ###흉갑이 {jongs: {time:day} }이고 주 손이 {jongs: {type:gen,slot:hot1,order:0} }이지만 다른 손이 {jongs: {type:gen,slot:off,main:{slot:hot1,order:0},time:day} }가 아닌 경우 화살을 장착시킵니다.###
