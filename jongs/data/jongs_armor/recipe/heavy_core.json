@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "NLN",
+    "NHN",
+    "NNN"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:heavy_core"
+    },
+    "L": {
+      "item": "minecraft:lodestone"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "id": "minecraft:heavy_core",
+    "count": 2
+  }
+}
