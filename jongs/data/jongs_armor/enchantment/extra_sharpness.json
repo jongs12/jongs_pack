@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 256,
+  "description": {
+    "text": "jongs_extra_sharpness"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 998976
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1
+}
