@@ -1,1 +1,1 @@
-$tp @e[nbt={ ArmorItems:[{},{},{},{ components:{"minecraft:custom_data":{ jongs:{Owner:$(UUID)} }} }] }] @s
+$tp @n[nbt={ ArmorItems:[{},{},{},{ components:{"minecraft:custom_data":{ jongs:{Owner:$(UUID)} }} }] }] @s
