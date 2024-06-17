@@ -67,8 +67,8 @@
             "min": 0.0,
             "value": {
               "type": "minecraft:linear",
-              "base": 3.0,
-              "per_level_above_first": 1.0
+              "base": 2.0,
+              "per_level_above_first": 0.0
             }
           },
           "trigger_game_event": "minecraft:block_place"
@@ -80,7 +80,7 @@
     "base": 256,
     "per_level_above_first": 256
   },
-  "max_level": 2,
+  "max_level": 1,
   "min_cost": {
     "base": 256,
     "per_level_above_first": 256
