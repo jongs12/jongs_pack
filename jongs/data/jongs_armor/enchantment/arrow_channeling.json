@@ -1,7 +1,7 @@
 {
   "anvil_cost": 256,
   "description": {
-    "text": "jongs_better_channeling"
+    "text": "jongs_arrow_channeling"
   },
   "effects": {
     "minecraft:hit_block": [
@@ -28,7 +28,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "minecraft:trident"
+                "type": "minecraft:arrow"
               }
             },
             {
