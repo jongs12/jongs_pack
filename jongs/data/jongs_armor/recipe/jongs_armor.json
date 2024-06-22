@@ -3,31 +3,31 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "minecraft:dragon_head"
-    },
-    {
       "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:enchanted_golden_apple"
-    },
-    {
-      "item": "minecraft:conduit"
+      "item": "minecraft:dragon_head"
     },
     {
       "item": "minecraft:heavy_core"
     },
     {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
       "item": "minecraft:recovery_compass"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:conduit"
     },
     {
       "item": "minecraft:trident"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:end_crystal"
     }
   ],
   "result": {
