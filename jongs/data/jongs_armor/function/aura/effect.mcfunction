@@ -2,6 +2,9 @@
 #
 ###주변 크리퍼를 제거합니다.###
 kill @e[type=minecraft:creeper,distance=..16,tag=!global.ignore,tag=!global.ignore.kill]
+kill @e[type=minecraft:phantom,distance=..16,tag=!global.ignore,tag=!global.ignore.kill]
+kill @e[type=minecraft:vex,distance=..16,tag=!global.ignore,tag=!global.ignore.kill]
+kill @e[type=minecraft:bat,distance=..16,tag=!global.ignore,tag=!global.ignore.kill]
 #
 ###부정적 요소가 포함된 효과를 제거합니다.###
 ###속도 감소.###
