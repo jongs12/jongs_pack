@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 256,
+  "description": {
+    "text": "jongs_pickaxe_explosion"
+  },
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "block_interaction": "tnt",
+          "large_particle": {
+            "type": "minecraft:ash"
+          },
+          "radius": 6.0,
+          "small_particle": {
+            "type": "minecraft:ash"
+          },
+          "sound": "minecraft:block.stone.break"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 1
+}
