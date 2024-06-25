@@ -9,6 +9,3 @@ execute if score core jongs_tick_8 matches 6 as @a run function jongs_armor:give
 execute if score core jongs_tick_8 matches 8 as @a run function jongs_armor:give/inv_check
 ###remove: 갑옷이 없는데 아이템이 있는지 확인하고 제거합니다.###
 execute if score core jongs_tick_8 matches 4 as @a run function jongs_armor:remove/check
-###crystal: 폭죽의 엔드 수정을 폭파시킵니다.###
-execute if score core jongs_tick_8 matches 3 as @e[type=end_crystal,tag=jongs_bomb] at @s unless entity @n[type=minecraft:firework_rocket,distance=..1.47] run function jongs_armor:crossbow/crystal
-execute if score core jongs_tick_8 matches 7 as @e[type=end_crystal,tag=jongs_bomb] at @s unless entity @n[type=minecraft:firework_rocket,distance=..1.47] run function jongs_armor:crossbow/crystal
