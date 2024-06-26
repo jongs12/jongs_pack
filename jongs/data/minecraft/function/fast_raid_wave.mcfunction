@@ -1,0 +1,2 @@
+execute as @e[type=#jongs_mob:extended_raiders,tag=!global.ignore, nbt={active_effects:[{id:"minecraft:glowing",duration:-1,amplifier:1b,show_particles:false}]}] run damage @s 100 minecraft:player_attack by @p
+effect give @e[type=#jongs_mob:extended_raiders,tag=!global.ignore] minecraft:glowing infinite 1 true
