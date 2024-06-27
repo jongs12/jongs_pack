@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:generic",
+    "minecraft:generic_kill",
+    "minecraft:mob_attack",
+    "minecraft:mob_attack_no_aggro",
+    "minecraft:out_of_world",
+    "minecraft:outside_border",
+    "minecraft:player_attack"
+  ]
+}
