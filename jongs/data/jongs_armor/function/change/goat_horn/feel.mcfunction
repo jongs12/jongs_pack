@@ -12,5 +12,3 @@ kill @e[type=item]
 tag @s remove jongs_wolf
 tag @s remove jongs_cat
 tag @s remove jongs_parrot
-#
-tellraw @s [{"text":"소환한 동물들을 다시 돌려보냅니다."}]
