@@ -61,12 +61,7 @@
               }
             ]
           },
-          "radius": {
-            "type": "minecraft:clamped",
-            "max": 16.0,
-            "min": 0.0,
-            "value": 2.0
-          },
+          "radius": 2.0,
           "trigger_game_event": "minecraft:block_place"
         }
       }
