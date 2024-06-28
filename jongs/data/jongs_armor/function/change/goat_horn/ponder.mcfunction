@@ -1,4 +1,4 @@
-playsound minecraft:item.goat_horn.sound.0 master @s ~ ~ ~ 2
+playsound minecraft:item.goat_horn.sound.0 master @a ~ ~ ~ 2
 #
 scoreboard players reset @s jongs_damage_dea
 scoreboard players reset @s jongs_damage_abs
