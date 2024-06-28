@@ -1,4 +1,4 @@
-playsound minecraft:item.goat_horn.sound.3 master @s ~ ~ ~ 2
+playsound minecraft:item.goat_horn.sound.3 master @a ~ ~ ~ 2
 #
 $execute as @e[tag=jongs_wolf,nbt={Owner:$(UUID)}] run data modify entity @s Silent set value true
 $execute as @e[tag=jongs_cat,nbt={Owner:$(UUID)}] run data modify entity @s Silent set value true
