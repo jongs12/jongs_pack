@@ -1,4 +1,4 @@
-playsound minecraft:item.goat_horn.sound.2 master @s ~ ~ ~ 2
+playsound minecraft:item.goat_horn.sound.2 master @a ~ ~ ~ 2
 #
 effect give @e[type=#jongs_mob:hostiles,distance=..64,tag=!global.ignore] minecraft:glowing 30 1 true
 me 주변의 적대적 몹을 탐색합니다.
