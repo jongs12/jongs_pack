@@ -101,21 +101,21 @@ kill @n[tag=jongs_armor]
 #
 ###흉갑이 {jongs: {type:core} }이고 다른 손에 {jongs: {type:gen,menu:home} }인 염소 뿔이 있으면 맞는 소리를 재생합니다.###
 ###고민.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv9} }}}]}] at @s run function jongs_armor:change/goat_horn/ponder with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv9} }}}]}] at @s run function jongs_mob:goat_horn/ponder with entity @s
 ###노래.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv10} }}}]}] at @s run function jongs_armor:change/goat_horn/sing with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv10} }}}]}] at @s run function jongs_mob:goat_horn/sing with entity @s
 ###수색.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv11} }}}]}] at @s run function jongs_armor:change/goat_horn/seek with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv11} }}}]}] at @s run function jongs_mob:goat_horn/seek with entity @s
 ###감각.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv12} }}}]}] at @s run function jongs_armor:change/goat_horn/feel with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv12} }}}]}] at @s run function jongs_mob:goat_horn/feel with entity @s
 ###동경.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv14} }}}]}] at @s run function jongs_armor:change/goat_horn/admire with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv14} }}}]}] at @s run function jongs_mob:goat_horn/admire with entity @s
 ###소집.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv15} }}}]}] at @s run function jongs_armor:change/goat_horn/call with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv15} }}}]}] at @s run function jongs_mob:goat_horn/call with entity @s
 ###갈망.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv16} }}}]}] at @s run function jongs_armor:change/goat_horn/yearn with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv16} }}}]}] at @s run function jongs_mob:goat_horn/yearn with entity @s
 ###꿈결.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv17} }}}]}] at @s run function jongs_armor:change/goat_horn/dream with entity @s
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:home,slot:inv17} }}}]}] at @s run function jongs_mob:goat_horn/dream with entity @s
 #
 ###흉갑이 {jongs: {menu:home} }이 아니면 change/blank 함수를 실행합니다.###
 execute as @s[nbt=!{Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {menu:home} }}}]}] run function jongs_armor:change/blank
