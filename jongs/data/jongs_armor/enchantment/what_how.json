@@ -1,0 +1,320 @@
+{
+  "anvil_cost": 256,
+  "description": {
+    "text": "jongs_what_how"
+  },
+  "effects": {
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 12.0
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 30.0
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:absorption"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:bad_omen"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:blindness"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:conduit_power"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:darkness"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:dolphins_grace"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:fire_resistance"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:glowing"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:haste"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:hero_of_the_village"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:hunger"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:infested"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:invisibility"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:jump_boost"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:levitation"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:mining_fatigue"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:nausea"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:night_vision"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:oozing"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:poison"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:raid_omen"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:regeneration"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:resistance"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:slow_falling"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:slowness"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:speed"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:strength"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:trial_omen"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:water_breathing"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:weakness"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:weaving"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1.0,
+              "max_duration": 0.0,
+              "min_amplifier": 1.0,
+              "min_duration": 0.0,
+              "to_apply": "minecraft:wind_charged"
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 5.0,
+              "max_duration": 480.0,
+              "min_amplifier": 5.0,
+              "min_duration": 480.0,
+              "to_apply": "minecraft:wither"
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1
+}
