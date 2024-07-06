@@ -7,13 +7,8 @@
     "minecraft:hit_block": [
       {
         "effect": {
-          "type": "minecraft:all_of",
-          "effects": [
-            {
-              "type": "minecraft:run_function",
-              "function": "jongs_armor:break"
-            }
-          ]
+          "type": "minecraft:run_function",
+          "function": "jongs_armor:break"
         }
       }
     ]
