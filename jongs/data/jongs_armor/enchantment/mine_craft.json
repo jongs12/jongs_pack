@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 256,
+  "description": {
+    "text": "jongs_armor_mine_craft"
+  },
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "jongs_armor:break"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 1
+}
