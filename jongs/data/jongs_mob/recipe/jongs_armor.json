@@ -1,0 +1,42 @@
+{
+  "type": "crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:beacon"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "minecraft:heavy_core"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:recovery_compass"
+    },
+    {
+      "item": "minecraft:conduit"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    }
+  ],
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"종스종스\"}",
+      "minecraft:lore": ["{\"text\":\"장착 시 인벤토리가 초기화됩니다.\"}"],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {"jongs":{"type":"setup"}}
+    }
+  }
+}
