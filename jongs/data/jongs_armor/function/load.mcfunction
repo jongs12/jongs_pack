@@ -1,1 +1,0 @@
-scoreboard objectives add jongs_tick_8 dummy "디버그"
