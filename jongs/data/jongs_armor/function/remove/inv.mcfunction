@@ -31,9 +31,6 @@ execute as @s[nbt={Inventory:[{Slot:7b,components:{"minecraft:custom_data":{jong
 ###핫바 8번.###
 execute as @s[nbt={Inventory:[{Slot:8b,components:{"minecraft:custom_data":{jongs: {type:gen} }}}]}] run item replace entity @s hotbar.8 with minecraft:air
 #
-###다른 손.###
-execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {type:gen} }}}]}] run item replace entity @s weapon.offhand with minecraft:air
-#
 ###인벤토리 0번이 {jongs: {type:gen} }이면 제거합니다.###
 execute as @s[nbt={Inventory:[{Slot:9b,components:{"minecraft:custom_data":{jongs: {type:gen} }}}]}] run item replace entity @s inventory.0 with minecraft:air
 ###인벤토리 1번.###
