@@ -1,0 +1,1 @@
+scoreboard players set @s jongs_shield 1
