@@ -16,17 +16,6 @@
               "scores": {
                 "jongs_shield": 1
               }
-            },
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "tags": [
-                  {
-                    "expected": false,
-                    "id": "jongs_armor:unobstructed"
-                  }
-                ]
-              }
             }
           ]
         }
