@@ -16,7 +16,7 @@ execute if score core jongs_tick_8 matches 7 as @a run function jongs_armor:give
 ###메뉴가 home일 때 아이템이 맞는 슬롯에 들어가 있는지 확인하고 지급합니다.###
 execute if score core jongs_tick_8 matches 2 as @a run function jongs_armor:give/home_check
 #
-###갑옷을 제대로 입고 있는지 확인하고 제거합니다.###
+###갑옷을 제대로 입고 있는지 확인하고 교체합니다.###
 execute if score core jongs_tick_8 matches 4 as @a run function jongs_armor:change/inv_check
 #
 ###갑옷을 입고 있는지 확인하고 효과를 발동합니다.###
