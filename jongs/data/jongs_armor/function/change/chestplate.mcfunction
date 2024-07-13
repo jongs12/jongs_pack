@@ -13,6 +13,9 @@ execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{j
 #
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:type,slot:inv16} }}}]}] run data modify entity @n[tag=jongs_armor] ArmorItems[2].components."minecraft:custom_data".jongs.chestplate_type set value netherite
 #
+###바꾼 갑옷이 불에 타지 않게 합니다.###
+data modify entity @n[tag=jongs_armor] ArmorItems[2].components merge value {"minecraft:fire_resistant":{}}
+#
 ###다른 손이 {jongs: {menu:pattern} }이면.###
 execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {menu:pattern,slot:inv9} }}}]}] run data modify entity @n[tag=jongs_armor] ArmorItems[2].components."minecraft:trim".pattern set value sentry
 #
