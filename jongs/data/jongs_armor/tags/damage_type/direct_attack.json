@@ -6,7 +6,6 @@
     "minecraft:mob_attack_no_aggro",
     "minecraft:out_of_world",
     "minecraft:outside_border",
-    "minecraft:player_attack",
-    "jongs_mob:unobstructed"
+    "minecraft:player_attack"
   ]
 }
