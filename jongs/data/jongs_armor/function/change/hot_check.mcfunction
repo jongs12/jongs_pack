@@ -1,0 +1,2 @@
+###흉갑이 {jongs: {type:core} }이고 다른 손에 {jongs: {type:gen} }이지만 {jongs: {slot:off} }나 {jongs: {change:armor} }가 아닌 아이템이 있으면 change/hot 함수를 실행합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {type:core} }}},{Slot:-106b,components:{"minecraft:custom_data":{jongs: {type:gen} }}}]},nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:off} }}}]},nbt=!{Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {change:armor} }}}]}] at @s run function jongs_armor:change/hot
