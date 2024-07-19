@@ -20,7 +20,7 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "#minecraft:fire"
+                "blocks": "#jongs_mob:annoying_blocks"
               }
             ]
           },
