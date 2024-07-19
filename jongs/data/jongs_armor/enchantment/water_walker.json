@@ -30,7 +30,7 @@
                   1,
                   0
                 ],
-                "tag": "minecraft:replaceable"
+                "tag": "jongs_mob:passable"
               },
               {
                 "type": "minecraft:matching_blocks",
