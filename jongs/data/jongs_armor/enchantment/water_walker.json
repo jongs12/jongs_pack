@@ -30,7 +30,7 @@
                   1,
                   0
                 ],
-                "tag": "minecraft:air"
+                "tag": "minecraft:replaceable"
               },
               {
                 "type": "minecraft:matching_blocks",
