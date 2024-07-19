@@ -24,6 +24,10 @@
               "entity": "minecraft:lightning_bolt"
             },
             {
+              "type": "minecraft:run_function",
+              "function": "jongs_mob:thunder"
+            },
+            {
               "type": "minecraft:play_sound",
               "pitch": 1.0,
               "sound": "minecraft:item.trident.thunder",
