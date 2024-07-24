@@ -23,8 +23,13 @@ execute as @s[nbt=!{Inventory:[{Slot:35b,components:{"minecraft:custom_data":{jo
 #
 ###흉갑이 {jongs: {time:day} }이고 인벤토리 4번이 {jongs: {type:gen,menu:home,slot:inv4,time:day} }가 아닌 경우 모닥불로 교체합니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {time:day} }}}]},nbt=!{Inventory:[{Slot:13b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv4,time:day} }}}]}] run item replace entity @s inventory.4 with minecraft:campfire[minecraft:item_name='{"text": "다크 모드: 꺼짐"}',minecraft:lore=['{"text": "양손 들기로 다크 모드를 켭니다."}'],minecraft:enchantments={show_in_tooltip:false,levels:{'minecraft:vanishing_curse':1}},minecraft:custom_data={jongs: {type:gen,menu:home,slot:inv4,time:day} }]
+###흉갑이 {jongs: {time:day} }이고 야간 투시가 있으면 제거합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {time:day} }}}],active_effects:[{id:"minecraft:night_vision",duration:-1,amplifier:10b,show_particles:0b}]}] run effect clear @s minecraft:night_vision
+#
 ###흉갑이 {jongs: {time:night} }이고 인벤토리 4번이 {jongs: {type:gen,menu:home,slot:inv4,time:night} }가 아닌 경우 영혼 모닥불로 교체합니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {time:night} }}}]},nbt=!{Inventory:[{Slot:13b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv4,time:night} }}}]}] run item replace entity @s inventory.4 with minecraft:soul_campfire[minecraft:item_name='{"text": "다크 모드: 켜짐"}',minecraft:lore=['{"text": "양손 들기로 다크 모드를 끕니다."}'],minecraft:enchantments={show_in_tooltip:false,levels:{'minecraft:vanishing_curse':1}},minecraft:custom_data={jongs: {type:gen,menu:home,slot:inv4,time:night} }]
+###흉갑이 {jongs: {time:night} }이고 야간 투시가 없으면 지급합니다.###
+execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {time:night} }}}]},nbt=!{active_effects:[{id:"minecraft:night_vision",duration:-1}]}] run effect give @s minecraft:night_vision infinite 10 true
 #
 ###흉갑이 {jongs: {aura:true} }이고 인벤토리 13번이 {jongs: {type:gen,menu:home,slot:inv13,aura:true} }가 아닌 경우 조각된 구리로 교체합니다.###
 execute as @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{jongs: {aura:true} }}}]},nbt=!{Inventory:[{Slot:22b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv13,aura:true} }}}]}] run item replace entity @s inventory.13 with minecraft:chiseled_copper[minecraft:item_name='{"text": "부정적 효과 제거: 켜짐"}',minecraft:lore=['{"text": "양손 들기로 효과 제거를 끕니다."}'],minecraft:enchantments={show_in_tooltip:false,levels:{'minecraft:vanishing_curse':1}},minecraft:custom_data={jongs: {type:gen,menu:home,slot:inv13,aura:true} }]
