@@ -2,6 +2,9 @@
 #
 ###업적이 달성되어 있다면 포화를 제거합니다.###
 execute as @s[advancements={jongs_armor:armed=true}] run effect clear @s minecraft:saturation
+###야간 투시가 있으면 제거합니다.###
+execute as @s[nbt={active_effects:[{id:"minecraft:night_vision",duration:-1,amplifier:10b,show_particles:0b}]}] run effect clear @s minecraft:night_vision
+#
 ###업적을 해제합니다.###
 advancement revoke @s only jongs_armor:armed
 #
