@@ -36,7 +36,7 @@
                 },
                 "movement": {
                   "fall_distance": {
-                    "min": 0.0625
+                    "min": 0.00001
                   }
                 }
               }
@@ -116,7 +116,7 @@
                 },
                 "movement": {
                   "fall_distance": {
-                    "min": 0.0625
+                    "min": 1.5
                   }
                 }
               }
@@ -154,7 +154,7 @@
                 },
                 "movement": {
                   "fall_distance": {
-                    "min": 0.0625
+                    "min": 1.5
                   }
                 }
               }
