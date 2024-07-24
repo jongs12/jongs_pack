@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 256,
+  "description": {
+    "text": "jongs_absolute_defense"
+  },
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jongs_shield": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 256,
+    "per_level_above_first": 256
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}
