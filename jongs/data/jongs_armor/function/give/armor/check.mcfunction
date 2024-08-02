@@ -1,0 +1,20 @@
+###인벤토리 0~3, 5~8, 18~21, 23~26번이 {jongs: {type:gen,menu:home} }이 아닌 경우 슬롯에 맞는 아이템으로 교체합니다.###
+execute as @s[nbt=!{Inventory:[{Slot:9b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv0} }}}]}] run function jongs_armor:give/armor/helmet_type with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:10b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv1} }}}]}] run function jongs_armor:give/armor/helmet_pattern with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:11b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv2} }}}]}] run function jongs_armor:give/armor/helmet_material with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:12b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv3} }}}]}] run function jongs_armor:give/armor/helmet_color with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+#
+execute as @s[nbt=!{Inventory:[{Slot:14b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv5} }}}]}] run function jongs_armor:give/armor/chestplate_type with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:15b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv6} }}}]}] run function jongs_armor:give/armor/chestplate_pattern with entity @s Inventory[{Slot:102b}].components."minecraft:trim"
+execute as @s[nbt=!{Inventory:[{Slot:16b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv7} }}}]}] run function jongs_armor:give/armor/chestplate_material with entity @s Inventory[{Slot:102b}].components."minecraft:trim"
+execute as @s[nbt=!{Inventory:[{Slot:17b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv8} }}}]}] run function jongs_armor:give/armor/chestplate_color with entity @s Inventory[{Slot:102b}].components."minecraft:dyed_color"
+#
+execute as @s[nbt=!{Inventory:[{Slot:27b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv18} }}}]}] run function jongs_armor:give/armor/leggings_type with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:28b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv19} }}}]}] run function jongs_armor:give/armor/leggings_pattern with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:29b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv20} }}}]}] run function jongs_armor:give/armor/leggings_material with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:30b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv21} }}}]}] run function jongs_armor:give/armor/leggings_color with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+#
+execute as @s[nbt=!{Inventory:[{Slot:32b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv23} }}}]}] run function jongs_armor:give/armor/boots_type with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:33b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv24} }}}]}] run function jongs_armor:give/armor/boots_pattern with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:34b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv25} }}}]}] run function jongs_armor:give/armor/boots_material with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
+execute as @s[nbt=!{Inventory:[{Slot:35b,components:{"minecraft:custom_data":{jongs: {type:gen,menu:home,slot:inv26} }}}]}] run function jongs_armor:give/armor/boots_color with entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".jongs
