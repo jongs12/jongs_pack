@@ -41,6 +41,7 @@ kill @n[tag=jongs_armor]
 #
 ###다른 손에 아이템이 없으면 change/blank 함수를 실행합니다.###
 execute as @s[nbt=!{Inventory:[{Slot:-106b}]}] run function jongs_armor:change/blank
+execute as @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{jongs: {slot:off} }}}]}] run function jongs_armor:change/blank
 #
 ###다른 손의 아이템을 제거합니다.###
 item replace entity @s weapon.offhand with minecraft:air
